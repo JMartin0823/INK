@@ -41,7 +41,7 @@ class About extends HTMLElement {
         render() {
             if (this.shadowRoot) {
                 this.shadowRoot.innerHTML = `
-                <link rel="stylesheet" href="./about.css">
+                <link rel="stylesheet" href="../src/components/about/about.css">
                 <section>
                 <h3>${this.name}</h3>
                 <p>${this.description}<span>

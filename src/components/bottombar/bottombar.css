@@ -1,0 +1,37 @@
+.b1, .b2, .b3, .b4{
+    display: none;
+}
+
+@media screen and (max-width: 390px){
+    .b1, .b2, .b3, .b4{
+        color: #FE77B8;
+        display: contents;
+        fill: #FE77B8;
+        padding: 3%;
+}
+
+
+    section{
+        background-color: #350C43;
+        position: fixed;
+        padding: 1%;
+        width: 100%;
+        top: 90%;
+        z-index: 1;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        
+    }
+    .section{
+        background-color: transparent;
+        position: fixed;
+        padding: 1%;
+        width: 100%;
+        top: 90%;
+        z-index: 1;
+        
+    }
+    svg{
+        padding: 7%;
+    }
+}

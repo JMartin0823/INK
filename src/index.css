@@ -11,7 +11,7 @@
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
     padding-top: 7px; 
-    width: 20.68%;
+    width: 19.68%;
     margin-top: 172px;
     left: 70.5%;
     margin-right: 138px;
@@ -34,7 +34,7 @@ justify-content: center;
 font-family: 'proxima-nova', sans-serif;
 color: #350C43;
 font-size: 35pt;
-width: 20.68%;
+width: 19.68%;
 padding-top: 1%;
 
 }
@@ -103,6 +103,11 @@ button {
 
 @media screen and (max-width: 400px){
 
+    .all{
+        background-image: none;
+        background-color: #FE77B8;
+    }
+
     h1{
             display: none;
     }
@@ -126,18 +131,16 @@ button {
             margin-top: 20%;
     }
     body{
-            background-image: url(/public/Background2.png);
-            background-repeat: no-repeat;
-            background-attachment: fixed;
+            background-color: #FE77B8;
     }
-    a, img{
+    img{
             position: fixed;
             padding: 3%;
             z-index: 1;
-            right: 77%;
-            bottom: 91.4%;
-            width: 12%;
-            height: 5%;
+            right: 73%;
+            bottom: 88.4%;
+            width: 22%;
+            height: 10%;
     }
     
 }

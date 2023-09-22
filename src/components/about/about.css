@@ -3,6 +3,7 @@
     margin-left: 10px;
 }
 
+
 h3{
     font-family: 'proxima-nova', sans-serif;
     color: #350C43;
@@ -11,4 +12,5 @@ h3{
 
 p{
     font-family: 'proxima-nova', sans-serif;
+    max-width: 350px;
 }

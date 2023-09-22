@@ -55,6 +55,7 @@ class AppContainer extends HTMLElement {
             this.shadowRoot.innerHTML += `<h1>About</h1>`;
             this.shadowRoot.innerHTML += `<button>Post</button>`;
             this.shadowRoot.innerHTML += `<my-search></my-search>`;
+            this.shadowRoot.innerHTML += `<my-bottom></my-bottom>`;
 
             const logo = this.ownerDocument.createElement("img");
             logo.src="/src/inklogo.png"
