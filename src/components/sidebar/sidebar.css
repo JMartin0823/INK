@@ -3,7 +3,7 @@
     border: transparent;
     border-radius: 25px;
     padding-top: 0px; 
-    margin-top: 176px;
+    margin-top: 180px;
     margin-right: 1025px;
     position: fixed;
     top: 9px;
@@ -43,7 +43,7 @@ button:disabled {
 }
 
 button:hover {
- color: #1E2454;
+ color: #350C43;
  background-color: white;
 }
 

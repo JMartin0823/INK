@@ -12,7 +12,7 @@ class Searchbar extends HTMLElement {
         render() {
             if (this.shadowRoot) {
                 this.shadowRoot.innerHTML = `
-                <link rel="stylesheet" href="./searchbar.css">
+                <link rel="stylesheet" href="../src/components/searchbar/searchbar.css">
                 <section class="container">
             <form action="" class="searchbar"><input type="text" placeholder="search anything" class="bar">
             <button class="buttonsearch"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">

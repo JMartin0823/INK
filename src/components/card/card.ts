@@ -85,7 +85,7 @@ class Card extends HTMLElement {
             // loadCss(this, styles)
             if (this.shadowRoot) {
                 this.shadowRoot.innerHTML = `
-                <link rel="stylesheet" href="./card.css">
+                <link rel="stylesheet" href="../src/components/card/card.css">
                 <section class="all">
             <section>
               <section class="top">
