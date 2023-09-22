@@ -1,0 +1,14 @@
+*{
+    width: 300px;
+    margin-left: 10px;
+}
+
+h3{
+    font-family: 'proxima-nova', sans-serif;
+    color: #1E2454;
+    font-size: 14pt;
+}
+
+p{
+    font-family: 'proxima-nova', sans-serif;
+}

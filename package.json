@@ -1,0 +1,19 @@
+{
+  "name": "ink",
+  "version": "1.0.0",
+  "description": "Welcome to INK! Our community is built around creativity, collaboration, and respect. We strive to provide a safe and inclusive environment where artists can share, connect, and promote their work. As a member of this community, we ask that you abide by the following guidelines to ensure a positive experience for everyone.",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "serve": "^14.2.1",
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.2.2",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
+}

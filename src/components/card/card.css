@@ -1,0 +1,90 @@
+.all{
+        background-color: white;
+        border-radius: 25px;
+        margin-top: 10px;
+  
+  }
+  
+  
+  body {
+      background: transparent;
+      font-family: 'proxima-nova', sans-serif;
+    }
+
+    .tweet-img{
+      max-width:100%;
+      padding-top: 0.5%;
+      padding-bottom: 0.5%;
+    }
+    .pp {
+      border-radius: 50%;
+      margin-top: 2%;
+      margin-left: 2%;
+      margin-right: 2%;
+    }
+   
+.top{
+  display: flex;
+  flex-direction: row;
+  height: 75px;
+}
+
+    h4 {
+      font-size:18px;
+      font-family: 'proxima-nova', sans-serif;
+      color: #1E2454;
+      font-weight: bold;
+      margin-left: 1%;
+      padding-right: 1%;
+      position: relative;
+      top: 9%;
+      
+    }
+
+    p {
+      font-size:14px;
+      font-family: 'proxima-nova', sans-serif;
+      color: #6c6c6c;
+      font-weight: lighter;
+      margin-top: 5.5%;
+
+      
+    }
+    h6 {
+      font-size:14px;
+      font-family: 'proxima-nova', sans-serif;
+      color: #1E2454;
+      font-weight: lighter;
+      margin-left: 1%;
+      margin-right: 3%;
+      
+    }
+    .tweet-header-info {
+      font-weight:lighter;
+      color: #1E2454;
+
+    }
+
+    button{
+      background-color: transparent;
+      color: black;
+      border-color: transparent;
+      display: flex;
+      position: relative;
+      flex-wrap: wrap;   
+      flex-direction: row;
+  }
+  
+  .pepe{
+    display: flex;
+    flex-direction: row;
+  }
+  @media screen and (max-width: 400px){
+    p {
+      font-size:14px;
+      font-family: 'proxima-nova', sans-serif;
+      color: #6c6c6c;
+      font-weight: lighter;
+      margin-top: 9%;
+    }
+  }
