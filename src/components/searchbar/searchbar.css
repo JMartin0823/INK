@@ -11,7 +11,7 @@
   }
   
   ::placeholder {
-    color: #1E2454;
+    color: #350C43;
   }
   
   .bar{
@@ -26,7 +26,7 @@
     }
   
     .container input:focus {
-      outline-color: #1E2454;
+      outline-color: #350C43;
     }
   
   
@@ -36,7 +36,7 @@
     background: transparent;
     border: transparent;
     display: flex;
-    color: #1E2454;
+    color: white;
     padding-bottom: 10px;
     padding-top: 5px;
     padding-right: 13px;
@@ -47,7 +47,7 @@
 
   @media screen and (max-width: 400px){
     .searchbar {
-      background-color: #1E2454;
+      background-color: #350C43;
       position: fixed; 
       padding-top: 3%;
       padding-bottom: 3%;
@@ -70,7 +70,7 @@
       }
     
       .container input:focus {
-        outline-color: #1E2454;
+        outline-color: #350C43;
       }
     
     

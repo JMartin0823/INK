@@ -4,7 +4,8 @@
   "description": "Welcome to INK! Our community is built around creativity, collaboration, and respect. We strive to provide a safe and inclusive environment where artists can share, connect, and promote their work. As a member of this community, we ask that you abide by the following guidelines to ensure a positive experience for everyone.",
   "main": "index.js",
   "scripts": {
-    "start": "serve"
+    "start": "webpack --watch --mode=production",
+    "serve": "serve"
   },
   "keywords": [],
   "author": "",

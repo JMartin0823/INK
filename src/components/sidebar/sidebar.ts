@@ -11,7 +11,7 @@ class Sidebar extends HTMLElement {
 
         render() {
             if (this.shadowRoot) {
-                this.shadowRoot.innerHTML = `<link rel="stylesheet" href="./sidebar.css">`;
+                this.shadowRoot.innerHTML = `<link rel="stylesheet" href="../src/components/sidebar/sidebar.css">`;
 
                 const section=this.ownerDocument.createElement("section")
                 section.className="all"

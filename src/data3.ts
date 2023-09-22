@@ -1,9 +1,4 @@
-interface dataAbout {
-    name: string,
-    description: string,
-}
-
-const dataAbout = [
+export const dataAbout = [
     {
         name: "Cali",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae iaculis ipsum. Sed ac tellus a ipsum iaculis lobortis aliquet ",
@@ -25,4 +20,3 @@ const dataAbout = [
 
 
 ]
-export default dataAbout;

@@ -1,15 +1,4 @@
-interface dataCard {
-    name: string,
-    username: string,
-    profile: string,
-    image: string,
-    image2: string,
-    image3: string,
-    image4: string,
-    
-}
-
-const dataCard = [
+export const dataCard = [
     {
         name: "Dagger",
         username: "@daggeraiart",
@@ -63,4 +52,3 @@ const dataCard = [
     },
 ];
 
-export default dataCard;
