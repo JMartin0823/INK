@@ -24,7 +24,7 @@ class PFSidebar extends HTMLElement {
 
         render() {
             if (this.shadowRoot) {
-                this.shadowRoot.innerHTML = `<img class="img1" src="../../src/img/fliplogo2.png" alt="">`;
+                this.shadowRoot.innerHTML = `<img class="img1" src="../../src/img/inklogo2.png" alt="">`;
                 const section=this.ownerDocument.createElement("section")
                 section.className="section"
 
