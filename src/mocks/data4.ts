@@ -1,4 +1,9 @@
-export const dataLikes = [
+interface dataLikes {
+    image2: string,
+}
+
+
+const dataLikes = [
     {
         image2: "https://img.icons8.com/windows/512/hearts.png",
     },
@@ -9,3 +14,4 @@ export const dataLikes = [
         image2: "https://cdn-icons-png.flaticon.com/512/709/709612.png",
     },
     ]
+export default dataLikes;

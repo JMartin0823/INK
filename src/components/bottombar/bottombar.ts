@@ -1,3 +1,8 @@
+import { dispatch } from "../../store";
+import { navigate } from "../../store/actions";
+import { Screens } from "../../types/store";
+import styles from "./bottombar.css"
+
 class Bottombar extends HTMLElement {
 
     constructor() {
@@ -12,7 +17,7 @@ class Bottombar extends HTMLElement {
         render() {
             if (this.shadowRoot) {
                 this.shadowRoot.innerHTML = `
-                <link rel="stylesheet" href="../src/components/bottombar/bottombar.css">
+                <link rel="stylesheet" href="./bottombar.css">
                 <section>
             <button class="b2"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="30" height="30" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="currentColor" stroke-linecap="round" stroke-linejoin="round">
             <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
@@ -40,9 +45,31 @@ class Bottombar extends HTMLElement {
          </svg></button>
             </section>
                 `;
+
+                const profile = this.shadowRoot.querySelector(".b4");
+        if (profile) {
+            profile.addEventListener("click", () => {
+                dispatch(navigate(Screens.PROFILE));
+            });}
+
+            const More = this.shadowRoot.querySelector(".b1");
+        if (More) {
+            More.addEventListener("click", () => {
+                dispatch(navigate(Screens.CREATEPAGE));
+            });}
+
+            const home = this.shadowRoot.querySelector(".b2");
+        if (home) {
+            home.addEventListener("click", () => {
+                dispatch(navigate(Screens.HOMEPAGE));
+            });}
+                
+                const css = this.ownerDocument.createElement("style");
+            css.innerHTML = styles;
+            this.shadowRoot?.appendChild(css);
+            }
         }
     }
-}
 
     customElements.define("my-bottom", Bottombar);
     export default Bottombar;

@@ -1,8 +1,4 @@
-.all{
-    background-image: url(Background.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
+
 
 .aboutSection{
     background-color: rgba(255, 255, 255, 0.745);
@@ -10,8 +6,8 @@
     border-radius: 25px;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
-    padding-top: 7px; 
-    width: 19.68%;
+    padding-top: 7px;
+    width: 20.68%;
     margin-top: 172px;
     left: 70.5%;
     margin-right: 138px;
@@ -32,9 +28,9 @@ border-top-right-radius: 25px;
 text-align: center;
 justify-content: center;
 font-family: 'proxima-nova', sans-serif;
-color: #350C43;
+color: #1E2454;
 font-size: 35pt;
-width: 19.68%;
+width: 20.68%;
 padding-top: 1%;
 
 }
@@ -54,7 +50,7 @@ padding-top: 1%;
     background-color: transparent;
     border: transparent;
     border-radius: 25px;
-    padding-top: 0px; 
+    padding-top: 0px;
     margin-top: 176px;
     margin-left: 306px;
     margin-right: 1025px;
@@ -62,12 +58,12 @@ padding-top: 1%;
     top: 9px;
 }
 
-img{
-    margin-left: 16%;
-    margin-top: 0.5%;
+a{
+    margin-left: 18%;
+    margin-top: 3%;
     position: fixed;
-    width: 185px;
-    height: 185px;
+    width: 239px;
+    height: 136px;
 }
 
 button {
@@ -78,7 +74,7 @@ button {
     border: 0;
     border-radius: 29px;
     background-color: white;
-    color: #350C43;
+    color: #1E2454;
     font-size: 19pt;
     font-family: 'proxima-nova', sans-serif;
     font-weight: Bold;
@@ -87,13 +83,13 @@ button {
     width: 288px;
     height: 72px;
   }
-  
+
   button:hover {
-    background-color: #FE77B8;
+    background-color: #1E2454;
     color: white;
     box-shadow: 0 0 20px #6fc5ff50;
   }
-  
+
   button:active {
     background-color: white;
     transition: all 0.25s;
@@ -102,11 +98,6 @@ button {
 }
 
 @media screen and (max-width: 400px){
-
-    .all{
-        background-image: none;
-        background-color: #FE77B8;
-    }
 
     h1{
             display: none;
@@ -131,16 +122,16 @@ button {
             margin-top: 20%;
     }
     body{
-            background-color: #FE77B8;
+        background-color: #FE77B8;
     }
-    img{
+    a, img{
             position: fixed;
             padding: 3%;
             z-index: 1;
-            right: 73%;
-            bottom: 88.4%;
-            width: 22%;
-            height: 10%;
+            right: 77%;
+            bottom: 91.4%;
+            width: 12%;
+            height: 5%;
     }
-    
+
 }

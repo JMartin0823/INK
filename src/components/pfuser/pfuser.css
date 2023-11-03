@@ -1,0 +1,113 @@
+*{
+    overflow-y: hidden;
+}
+p{
+    position: absolute;
+    top: 45%;
+    left: 58%;
+    width: 455px;
+    height: 39px;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 126.5%;
+    letter-spacing: 0.075em;
+    margin: 0%;
+    color: rgba(255, 255, 255, 0.61);
+}
+
+h2{
+    position: absolute;
+    top: 39%;
+    left: 67%;
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+letter-spacing: 0.075em;
+color: #FFFFFF;
+margin: 0%;
+}
+
+img{
+    position: absolute;
+    top: 8%;
+    left: 62%;
+    border-radius: 100%;
+    height: 7cm;
+    margin-bottom: 10%;
+}
+
+svg{
+    position: absolute;
+    top: 3%;
+    height: 50px;
+    width: 50px;
+    color: white;
+}
+
+.edit{
+    left: 39%;
+}
+
+.help{
+    left: 96%;
+}
+
+@media screen and (max-width: 390px){
+
+    img{
+    position: absolute;
+    top: 18%;
+    left: 28%;
+    border-radius: 100%;
+    height: 4cm;
+    margin-bottom: 10%;
+    }
+
+    p{
+        position: absolute;
+        top: 45%;
+        left: 6%;
+        width: 455px;
+        height: 39px;
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 126.5%;
+        letter-spacing: 0.075em;
+        margin: 0%;
+        color: rgba(255, 255, 255, 0.61);
+    }
+    
+    h2{
+        position: absolute;
+        top: 40%;
+        left: 41%;
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        letter-spacing: 0.075em;
+        color: #FFFFFF;
+        margin: 0%;
+    }
+
+    svg{
+        position: absolute;
+        top: 2%;
+        height: 30px;
+        width: 30px;
+        color: white;
+    }
+    
+    .edit{
+        left: 5%;
+    }
+    
+    .help{
+        left: 82.5%;
+    }
+}

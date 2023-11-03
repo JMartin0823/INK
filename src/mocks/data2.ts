@@ -1,4 +1,9 @@
-export const dataSidebar = [
+interface dataSidebar {
+    name: string,
+}
+
+
+const dataSidebar = [
     {
         name: "Explore",
     },
@@ -19,3 +24,4 @@ export const dataSidebar = [
     },
 ];
 
+export default dataSidebar;

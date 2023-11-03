@@ -1,0 +1,113 @@
+.all {
+    width: 100%;
+    height: 100%;
+  }
+
+section{
+  position: relative;
+  margin-top: 10%;
+}
+
+img{
+  position: relative;
+  left: 14.5%;
+  margin-bottom: 2%;
+  margin-top: 2%
+}
+
+button{
+    appearance: none;
+    background-color: #FE77B8;
+    border: transparent;
+    border-radius: 29px; 
+    color: white;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    font-family: 'proxima-nova', sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+    line-height: normal;
+    margin: 0;
+    min-height: 0;
+    min-width: 0;
+    outline: none;
+    margin: 7mm;
+    padding: 6mm;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+    width: 25%;
+    position: relative;
+    left: 4%;
+
+   }
+   
+   button:disabled {
+    pointer-events: none;
+   }
+   
+   button:hover {
+    color: white;
+    background-color: #350C43;
+   }
+   
+   button:active {
+    box-shadow: none;
+   }
+
+   @media screen and (max-width: 390px){
+    .img1{
+        display: none;
+    }
+    button{
+      background-color: #FE77B8;
+      border: transparent;
+      border-radius: 9px; 
+      color: white;
+      cursor: pointer;
+      display: flex;
+      font-family: 'proxima-nova', sans-serif;
+      font-size: 10px;
+      font-weight: 600;
+      margin: 0;
+      min-height: 0;
+      min-width: 0;
+      margin: 3mm;
+      padding: 3mm;
+      text-decoration: none;
+      transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      will-change: transform;
+      width: 90%;
+      position: relative;
+      left: 0%;
+      top: -15%;
+  
+     }
+     
+     button:disabled {
+      pointer-events: none;
+     }
+     
+     button:hover {
+      color: white;
+      background-color: #350C43;
+     }
+     
+     button:active {
+      box-shadow: none;
+     }
+
+     section{
+      position: relative;
+      top: 48%;
+     }
+   }

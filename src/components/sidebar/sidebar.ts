@@ -1,3 +1,8 @@
+import { dispatch } from "../../store";
+import { navigate } from "../../store/actions";
+import { Screens } from "../../types/store";
+import styles from "./sidebar.css"
+
 class Sidebar extends HTMLElement {
 
     constructor() {
@@ -11,7 +16,7 @@ class Sidebar extends HTMLElement {
 
         render() {
             if (this.shadowRoot) {
-                this.shadowRoot.innerHTML = `<link rel="stylesheet" href="../src/components/sidebar/sidebar.css">`;
+                this.shadowRoot.innerHTML = ``;
 
                 const section=this.ownerDocument.createElement("section")
                 section.className="all"
@@ -35,10 +40,16 @@ class Sidebar extends HTMLElement {
                 const Profile = this.ownerDocument.createElement("button")
                 Profile.className = "button"
                 Profile.textContent="Profile"
+                Profile.addEventListener("click", () =>{
+                    dispatch(navigate(Screens.PROFILE))
+                } )
 
                 const More = this.ownerDocument.createElement("button")
                 More.className = "button"
                 More.textContent="More"
+                More.addEventListener("click", () =>{
+                    dispatch(navigate(Screens.LOGIN))
+                } )
 
                 section.appendChild(Explore)
                 section.appendChild(Notifications)
@@ -49,6 +60,9 @@ class Sidebar extends HTMLElement {
 
                 this.shadowRoot.appendChild(section)
 
+                const css = this.ownerDocument.createElement("style");
+            css.innerHTML = styles;
+            this.shadowRoot?.appendChild(css);
             }
         }
     }
